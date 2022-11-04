@@ -123,7 +123,6 @@ Source: ..\version; DestDir: "{app}";
 ; explicitly list "gamemd-spawn.exe" file so that an error is thrown if it does not exist
 Source: ..\gamemd-spawn.exe; DestDir: "{app}";
 Source: ..\Resources\*; DestDir: "{app}\Resources"; Flags: ignoreversion recursesubdirs
-Source: ..\Qt\*; DestDir: "{app}\Qt"; Flags: ignoreversion recursesubdirs
 Source: ..\INI\*; DestDir: "{app}\INI"; Flags: ignoreversion recursesubdirs
 Source: ..\Maps\*; DestDir: "{app}\Maps"; Flags: ignoreversion recursesubdirs
 Source: ..\Map Renderer\*; DestDir: "{app}\Map Renderer"; Flags: ignoreversion recursesubdirs
